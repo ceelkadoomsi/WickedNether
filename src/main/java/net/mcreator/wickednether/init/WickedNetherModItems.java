@@ -16,6 +16,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.wickednether.item.WickedQuartzItem;
+import net.mcreator.wickednether.item.FyaItem;
 import net.mcreator.wickednether.WickedNetherMod;
 
 public class WickedNetherModItems {
@@ -32,6 +33,7 @@ public class WickedNetherModItems {
 	public static final RegistryObject<Item> WICKED_QUARTZ = REGISTRY.register("wicked_quartz", () -> new WickedQuartzItem());
 	public static final RegistryObject<Item> WISKED_QUARTZ_LORE = block(WickedNetherModBlocks.WISKED_QUARTZ_LORE,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> FYA = REGISTRY.register("fya", () -> new FyaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
