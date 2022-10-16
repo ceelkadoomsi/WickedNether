@@ -30,7 +30,7 @@
         "subtract": false
       }
     ],
-    "name": "Hangingvines",
+    "name": "Hanging Vines",
     "specialInfo": [],
     "creativeTab": {
       "value": "DECORATIONS"
@@ -73,12 +73,16 @@
       "value": ""
     },
     "offsetType": "XZ",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "OPEN",
     "flammability": 0,
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
-    "canBePlacedOn": [],
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:WickedLeaves"
+      }
+    ],
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [
       "Nether"
@@ -88,7 +92,7 @@
         "value": "CUSTOM:WickedForest"
       }
     ],
-    "patchSize": 64,
-    "generateAtAnyHeight": false
+    "patchSize": 10,
+    "generateAtAnyHeight": true
   }
 }

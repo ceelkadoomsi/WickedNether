@@ -1,5 +1,5 @@
 {
-  "parent": "wicked_nether:block/wicked_leaves",
+  "parent": "wicked_nether:block/wicked_quartz_lore",
   "display": {
     "thirdperson": {
       "rotation": [

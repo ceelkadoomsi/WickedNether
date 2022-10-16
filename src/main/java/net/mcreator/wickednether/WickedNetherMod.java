@@ -57,6 +57,7 @@ public class WickedNetherMod {
 
 		WickedNetherModBiomes.REGISTRY.register(bus);
 		WickedNetherModParticleTypes.REGISTRY.register(bus);
+
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

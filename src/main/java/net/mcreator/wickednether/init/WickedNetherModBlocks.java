@@ -10,7 +10,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
@@ -28,13 +27,13 @@ import net.mcreator.wickednether.WickedNetherMod;
 public class WickedNetherModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, WickedNetherMod.MODID);
 	public static final RegistryObject<Block> WICKED_NYLIUM = REGISTRY.register("wicked_nylium", () -> new WickedNyliumBlock());
-	public static final RegistryObject<Block> WICKED_LEAVES = REGISTRY.register("wicked_leaves", () -> new WickedLeavesBlock());
+	public static final RegistryObject<Block> WICKED_WART_BLOCK = REGISTRY.register("wicked_wart_block", () -> new WickedLeavesBlock());
 	public static final RegistryObject<Block> WICKEDWOOD = REGISTRY.register("wickedwood", () -> new WickedwoodBlock());
 	public static final RegistryObject<Block> WICKEDSPROUNS = REGISTRY.register("wickedsprouns", () -> new WickedsprounsBlock());
 	public static final RegistryObject<Block> HANGINGVINES = REGISTRY.register("hangingvines", () -> new HangingvinesBlock());
 	public static final RegistryObject<Block> WICKED_PLANKS = REGISTRY.register("wicked_planks", () -> new WickedPlanksBlock());
 	public static final RegistryObject<Block> WICKED_DOOR = REGISTRY.register("wicked_door", () -> new WickedDoorBlock());
-	public static final RegistryObject<Block> WISKED_QUARTZ_LORE = REGISTRY.register("wisked_quartz_lore", () -> new WiskedQuartzLoreBlock());
+	public static final RegistryObject<Block> WICKED_QUARTZ_LORE = REGISTRY.register("wicked_quartz_lore", () -> new WiskedQuartzLoreBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -43,11 +42,6 @@ public class WickedNetherModBlocks {
 			WickedsprounsBlock.registerRenderLayer();
 			HangingvinesBlock.registerRenderLayer();
 			WickedDoorBlock.registerRenderLayer();
-		}
-
-		@SubscribeEvent
-		public static void blockColorLoad(ColorHandlerEvent.Block event) {
-			WickedNyliumBlock.blockColorLoad(event);
 		}
 	}
 }

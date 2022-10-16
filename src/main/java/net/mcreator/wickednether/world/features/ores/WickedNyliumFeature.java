@@ -47,7 +47,7 @@ public class WickedNyliumFeature extends OreFeature {
 				new OreConfiguration(WickedNyliumFeatureRuleTest.INSTANCE, WickedNetherModBlocks.WICKED_NYLIUM.get().defaultBlockState(), 16));
 		PLACED_FEATURE = PlacementUtils.register("wicked_nether:wicked_nylium", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
-						HeightRangePlacement.triangle(VerticalAnchor.absolute(30), VerticalAnchor.absolute(85)), BiomeFilter.biome()));
+						HeightRangePlacement.triangle(VerticalAnchor.absolute(20), VerticalAnchor.absolute(85)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -84,7 +84,7 @@ public class WickedNyliumFeature extends OreFeature {
 
 		public boolean test(BlockState blockAt, Random random) {
 			if (base_blocks == null) {
-				base_blocks = List.of(Blocks.STONE, WickedNetherModBlocks.WICKED_NYLIUM.get());
+				base_blocks = List.of(Blocks.NETHERRACK);
 			}
 			return base_blocks.contains(blockAt.getBlock());
 		}

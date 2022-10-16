@@ -14,7 +14,7 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wicked_leaves"
+      "registry_name": "wicked_wart_block"
     },
     {
       "name": "Wickedwood",
@@ -118,23 +118,108 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wisked_quartz_lore"
+      "registry_name": "wicked_quartz_lore"
     },
     {
-      "name": "WickedWood1",
-      "type": "structure",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wicked_wood_1"
-    },
-    {
-      "name": "Fya",
-      "type": "item",
+      "name": "HangingvinesDobavochnoieUsloviiePoGienieratsii",
+      "type": "procedure",
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fya"
+      "registry_name": "hangingvines_dobavochnoie_usloviie_po_gienieratsii",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WickedFungus",
+      "type": "structure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus"
+    },
+    {
+      "name": "WickedFungusDopolnitielnoieUsloviieGienieratsii",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus_dopolnitielnoie_usloviie_gienieratsii",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WickedFungus2",
+      "type": "structure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus_2"
+    },
+    {
+      "name": "WickedFungus3",
+      "type": "structure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus_3"
+    },
+    {
+      "name": "WickedFungus4",
+      "type": "structure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus_4"
+    },
+    {
+      "name": "WickedFungus5",
+      "type": "structure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus_5"
+    },
+    {
+      "name": "WickedFungus6",
+      "type": "structure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus_6"
     }
   ],
   "variable_elements": [],
@@ -150,20 +235,19 @@
   ],
   "language_map": {
     "en_us": {
-      "block.wicked_nether.wickedsprouns": "Wickedsprouns",
-      "item.wicked_nether.fya": "Fya",
+      "block.wicked_nether.wickedsprouns": "Wicked Sprouts",
       "subtitles.wickedforest": "",
-      "block.wicked_nether.wisked_quartz_lore": "Wisked Quartz Lore",
-      "block.wicked_nether.hangingvines": "Hangingvines",
+      "block.wicked_nether.hangingvines": "Hanging Vines",
       "block.wicked_nether.wickedwood": "Wickedwood",
       "biome.wicked_nether.wicked_forest": "Wicked Forest",
       "block.wicked_nether.wicked_door": "Wicked Door",
-      "block.wicked_nether.wicked_leaves": "Wicked Leaves",
+      "block.wicked_nether.wicked_quartz_lore": "Wisked Quartz Lore",
       "item.wicked_nether.wicked_quartz": "Wicked Quartz",
       "block.wicked_nether.wicked_nylium": "Wicked Nylium",
       "entity.wicked_nether.wicked": "Wicked",
       "item.wicked_nether.wicked_spawn_egg": "Wicked Spawn Egg",
-      "block.wicked_nether.wicked_planks": "Wicked Planks"
+      "block.wicked_nether.wicked_planks": "Wicked Planks",
+      "block.wicked_nether.wicked_wart_block": "Wicked Wart Block"
     }
   },
   "foldersRoot": {

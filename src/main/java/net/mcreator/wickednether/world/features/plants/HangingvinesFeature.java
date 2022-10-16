@@ -36,9 +36,9 @@ public class HangingvinesFeature extends RandomPatchFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("wicked_nether:hangingvines", FEATURE,
 				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
 						new SimpleBlockConfiguration(BlockStateProvider.simple(WickedNetherModBlocks.HANGINGVINES.get().defaultBlockState())),
-						List.of(), 64));
+						List.of(), 10));
 		PLACED_FEATURE = PlacementUtils.register("wicked_nether:hangingvines", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
-				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.FULL_RANGE, BiomeFilter.biome()));
 		return FEATURE;
 	}
 

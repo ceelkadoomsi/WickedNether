@@ -43,9 +43,9 @@ public class WiskedQuartzLoreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new WiskedQuartzLoreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("wicked_nether:wisked_quartz_lore", FEATURE, new OreConfiguration(
-				WiskedQuartzLoreFeatureRuleTest.INSTANCE, WickedNetherModBlocks.WISKED_QUARTZ_LORE.get().defaultBlockState(), 16));
-		PLACED_FEATURE = PlacementUtils.register("wicked_nether:wisked_quartz_lore", CONFIGURED_FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("wicked_nether:wicked_quartz_lore", FEATURE, new OreConfiguration(
+				WiskedQuartzLoreFeatureRuleTest.INSTANCE, WickedNetherModBlocks.WICKED_QUARTZ_LORE.get().defaultBlockState(), 16));
+		PLACED_FEATURE = PlacementUtils.register("wicked_nether:wicked_quartz_lore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(19), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;
@@ -78,7 +78,7 @@ public class WiskedQuartzLoreFeature extends OreFeature {
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("wicked_nether:wisked_quartz_lore_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("wicked_nether:wicked_quartz_lore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;
