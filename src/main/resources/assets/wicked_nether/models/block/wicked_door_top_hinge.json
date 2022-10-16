@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "wicked_nether:blocks/wicked_door_bottom",
+    "top": "wicked_nether:blocks/wicked_door_top"
+  }
+}

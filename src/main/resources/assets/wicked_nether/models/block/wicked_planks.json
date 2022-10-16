@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wicked_nether:blocks/warped_planks",
+    "up": "wicked_nether:blocks/warped_planks",
+    "north": "wicked_nether:blocks/warped_planks",
+    "east": "wicked_nether:blocks/warped_planks",
+    "south": "wicked_nether:blocks/warped_planks",
+    "west": "wicked_nether:blocks/warped_planks",
+    "particle": "wicked_nether:blocks/warped_planks"
+  }
+}

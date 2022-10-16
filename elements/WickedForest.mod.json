@@ -1,0 +1,103 @@
+{
+  "_fv": 33,
+  "_type": "biome",
+  "definition": {
+    "name": "Wicked Forest",
+    "groundBlock": {
+      "value": "CUSTOM:WickedNylium"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.NETHER_WART_BLOCK"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -11730845,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -9895802,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:wickedforest"
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "ambient.crimson_forest.additions"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CUSTOM:WickedDast"
+    },
+    "particlesProbability": 50.0,
+    "biomeCategory": "FOREST",
+    "rainingPossibility": 0.0,
+    "temperature": 0.5,
+    "baseHeight": 0.4,
+    "heightVariation": 0.19999999999999998,
+    "spawnBiome": false,
+    "spawnBiomeNether": true,
+    "spawnInCaves": false,
+    "biomeWeight": 15,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 9,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 8,
+    "bigMushroomsChunk": 4,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 5,
+    "vanillaTreeType": "Big trees",
+    "treeType": 1,
+    "minHeight": 0,
+    "treeStem": {
+      "value": "CUSTOM:Wickedwood"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:WickedLeaves"
+    },
+    "treeVines": {
+      "value": "CUSTOM:Hangingvines"
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": true,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": true,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": []
+  }
+}

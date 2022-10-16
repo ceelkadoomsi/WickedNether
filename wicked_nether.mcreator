@@ -1,0 +1,182 @@
+{
+  "mod_elements": [
+    {
+      "name": "WickedNylium",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_nylium"
+    },
+    {
+      "name": "WickedLeaves",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_leaves"
+    },
+    {
+      "name": "Wickedwood",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wickedwood"
+    },
+    {
+      "name": "WickedDast",
+      "type": "particle",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_dast"
+    },
+    {
+      "name": "WickedForest",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_forest"
+    },
+    {
+      "name": "Wicked",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked"
+    },
+    {
+      "name": "Wickedsprouns",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wickedsprouns"
+    },
+    {
+      "name": "Hangingvines",
+      "type": "plant",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hangingvines"
+    },
+    {
+      "name": "WickedPlanks",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_planks"
+    },
+    {
+      "name": "WickedPlanksCraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_planks_craft"
+    },
+    {
+      "name": "WickedStiks",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_stiks"
+    },
+    {
+      "name": "WickedDoor",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_door"
+    },
+    {
+      "name": "WickedDoorCraft",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_door_craft"
+    },
+    {
+      "name": "WickedQuartz",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_quartz"
+    },
+    {
+      "name": "WiskedQuartzLore",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisked_quartz_lore"
+    },
+    {
+      "name": "WickedWood1",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_wood_1"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "wickedforest",
+      "files": [
+        "wicked_forest"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.wicked_nether.wickedsprouns": "Wickedsprouns",
+      "subtitles.wickedforest": "",
+      "block.wicked_nether.wisked_quartz_lore": "Wisked Quartz Lore",
+      "block.wicked_nether.hangingvines": "Hangingvines",
+      "block.wicked_nether.wickedwood": "Wickedwood",
+      "biome.wicked_nether.wicked_forest": "Wicked Forest",
+      "block.wicked_nether.wicked_door": "Wicked Door",
+      "block.wicked_nether.wicked_leaves": "Wicked Leaves",
+      "item.wicked_nether.wicked_quartz": "Wicked Quartz",
+      "block.wicked_nether.wicked_nylium": "Wicked Nylium",
+      "entity.wicked_nether.wicked": "Wicked",
+      "item.wicked_nether.wicked_spawn_egg": "Wicked Spawn Egg",
+      "block.wicked_nether.wicked_planks": "Wicked Planks"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "wicked_nether",
+    "modName": "Wicked Nether",
+    "version": "1.0.0",
+    "author": "User040920w764, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.wickednether",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

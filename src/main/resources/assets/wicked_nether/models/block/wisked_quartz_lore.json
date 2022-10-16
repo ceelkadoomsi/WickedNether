@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wicked_nether:blocks/dast",
+    "up": "wicked_nether:blocks/dast",
+    "north": "wicked_nether:blocks/dast",
+    "east": "wicked_nether:blocks/dast",
+    "south": "wicked_nether:blocks/dast",
+    "west": "wicked_nether:blocks/dast",
+    "particle": "wicked_nether:blocks/dast"
+  }
+}

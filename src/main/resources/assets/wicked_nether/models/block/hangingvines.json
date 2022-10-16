@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "wicked_nether:blocks/hanging_vines",
+    "particle": "wicked_nether:blocks/hanging_vines"
+  }
+}
