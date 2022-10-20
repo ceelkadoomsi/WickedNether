@@ -19,4 +19,10 @@ authors="User040920w764, MCreator"
 
 
 
+[[dependencies.wicked_nether]]
+    modId="allmods"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

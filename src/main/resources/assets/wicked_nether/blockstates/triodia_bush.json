@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "wicked_nether:block/triodia_bush"
+    },
+    "half=lower": {
+      "model": "wicked_nether:block/triodia_bush_bottom"
+    }
+  }
+}

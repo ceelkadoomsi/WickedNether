@@ -18,6 +18,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
 import net.mcreator.wickednether.world.features.plants.WickedsprounsFeature;
+import net.mcreator.wickednether.world.features.plants.TriodiaFeature;
+import net.mcreator.wickednether.world.features.plants.TriodiaBushFeature;
 import net.mcreator.wickednether.world.features.plants.HangingvinesFeature;
 import net.mcreator.wickednether.world.features.ores.WiskedQuartzLoreFeature;
 import net.mcreator.wickednether.world.features.ores.WickedwoodFeature;
@@ -74,6 +76,10 @@ public class WickedNetherModFeatures {
 	public static final RegistryObject<Feature<?>> WICKED_FUNGUS_6 = register("wicked_fungus_6", WickedFungus6Feature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, WickedFungus6Feature.GENERATE_BIOMES,
 					WickedFungus6Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> TRIODIA = register("triodia", TriodiaFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, TriodiaFeature.GENERATE_BIOMES, TriodiaFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TRIODIA_BUSH = register("triodia_bush", TriodiaBushFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, TriodiaBushFeature.GENERATE_BIOMES, TriodiaBushFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

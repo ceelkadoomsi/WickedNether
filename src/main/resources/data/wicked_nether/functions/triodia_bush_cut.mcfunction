@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot wicked_nether:gameplay/triodia_bush_cut

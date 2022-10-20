@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot wicked_nether:triodia_cut_loot
