@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.wickednether.init.WickedNetherModParticleTypes;
+import net.mcreator.wickednether.init.WickedNetherModMobEffects;
 import net.mcreator.wickednether.init.WickedNetherModItems;
 import net.mcreator.wickednether.init.WickedNetherModFeatures;
 import net.mcreator.wickednether.init.WickedNetherModEntities;
@@ -54,6 +55,8 @@ public class WickedNetherMod {
 		WickedNetherModEntities.REGISTRY.register(bus);
 
 		WickedNetherModFeatures.REGISTRY.register(bus);
+
+		WickedNetherModMobEffects.REGISTRY.register(bus);
 
 		WickedNetherModBiomes.REGISTRY.register(bus);
 		WickedNetherModParticleTypes.REGISTRY.register(bus);

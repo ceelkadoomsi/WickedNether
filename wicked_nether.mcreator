@@ -12,7 +12,7 @@
       "name": "WickedLeaves",
       "type": "block",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "wicked_wart_block"
     },
@@ -60,7 +60,7 @@
       "name": "Hangingvines",
       "type": "plant",
       "sortid": 7,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "hangingvines"
     },
@@ -124,7 +124,7 @@
       "name": "HangingvinesDobavochnoieUsloviiePoGienieratsii",
       "type": "procedure",
       "sortid": 15,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "hangingvines_dobavochnoie_usloviie_po_gienieratsii",
       "metadata": {
@@ -483,6 +483,14 @@
       "locked_code": false,
       "registry_name": "triodia_cut_function",
       "path": "~/DesertEnhancement/Functions"
+    },
+    {
+      "name": "Mushroominfection",
+      "type": "potioneffect",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroominfection"
     }
   ],
   "variable_elements": [],
@@ -499,6 +507,7 @@
   "language_map": {
     "en_us": {
       "block.wicked_nether.wickedsprouns": "Wicked Sprouts",
+      "effect.wicked_nether.mushroominfection": "гриботизация",
       "subtitles.wickedforest": "",
       "block.wicked_nether.triodia": "Triodia",
       "block.wicked_nether.hangingvines": "Hanging Vines",
