@@ -21,7 +21,7 @@ import net.mcreator.wickednether.WickedNetherMod;
 public class WickedNetherModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, WickedNetherMod.MODID);
 	public static final RegistryObject<Item> WICKED_NYLIUM = block(WickedNetherModBlocks.WICKED_NYLIUM, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> WICKED_WART_BLOCK = block(WickedNetherModBlocks.WICKED_WART_BLOCK, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> WICKED_LEAVES = block(WickedNetherModBlocks.WICKED_LEAVES, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> WICKEDWOOD = block(WickedNetherModBlocks.WICKEDWOOD, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> WICKED = REGISTRY.register("wicked_spawn_egg",
 			() -> new ForgeSpawnEggItem(WickedNetherModEntities.WICKED, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));

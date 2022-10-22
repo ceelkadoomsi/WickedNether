@@ -45,9 +45,8 @@ public class WickedNetherModFeatures {
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
 	public static final RegistryObject<Feature<?>> WICKED_NYLIUM = register("wicked_nylium", WickedNyliumFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, WickedNyliumFeature.GENERATE_BIOMES, WickedNyliumFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> WICKED_WART_BLOCK = register("wicked_wart_block", WickedLeavesFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, WickedLeavesFeature.GENERATE_BIOMES,
-					WickedLeavesFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> WICKED_LEAVES = register("wicked_leaves", WickedLeavesFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, WickedLeavesFeature.GENERATE_BIOMES, WickedLeavesFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> WICKEDWOOD = register("wickedwood", WickedwoodFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, WickedwoodFeature.GENERATE_BIOMES, WickedwoodFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> WICKEDSPROUNS = register("wickedsprouns", WickedsprounsFeature::feature, new FeatureRegistration(
