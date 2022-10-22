@@ -2,7 +2,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.wickednether.init;
+package net.mcreator.addonity.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -17,12 +17,11 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
-import net.mcreator.wickednether.world.features.ores.WiskedQuartzLoreFeature;
-import net.mcreator.wickednether.WickedNetherMod;
 import net.mcreator.addonity.world.features.plants.WickedsprounsFeature;
 import net.mcreator.addonity.world.features.plants.TriodiaFeature;
 import net.mcreator.addonity.world.features.plants.TriodiaBushFeature;
 import net.mcreator.addonity.world.features.plants.HangingvinesFeature;
+import net.mcreator.addonity.world.features.ores.WiskedQuartzLoreFeature;
 import net.mcreator.addonity.world.features.ores.WickedwoodFeature;
 import net.mcreator.addonity.world.features.ores.WickedPlanksFeature;
 import net.mcreator.addonity.world.features.ores.WickedNyliumFeature;
@@ -33,6 +32,7 @@ import net.mcreator.addonity.world.features.WickedFungus5Feature;
 import net.mcreator.addonity.world.features.WickedFungus4Feature;
 import net.mcreator.addonity.world.features.WickedFungus3Feature;
 import net.mcreator.addonity.world.features.WickedFungus2Feature;
+import net.mcreator.addonity.AddonityMod;
 
 import java.util.function.Supplier;
 import java.util.Set;
@@ -40,13 +40,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 @Mod.EventBusSubscriber
-public class WickedNetherModFeatures {
-	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, WickedNetherMod.MODID);
+public class AddonityModFeatures {
+	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, AddonityMod.MODID);
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
 	public static final RegistryObject<Feature<?>> WICKED_NYLIUM = register("wicked_nylium", WickedNyliumFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, WickedNyliumFeature.GENERATE_BIOMES, WickedNyliumFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> WICKED_LEAVES = register("wicked_leaves", WickedLeavesFeature::feature, new FeatureRegistration(
-			GenerationStep.Decoration.UNDERGROUND_ORES, WickedLeavesFeature.GENERATE_BIOMES, WickedLeavesFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> WICKED_WART_BLOCK = register("wicked_wart_block", WickedLeavesFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, WickedLeavesFeature.GENERATE_BIOMES,
+					WickedLeavesFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> WICKEDWOOD = register("wickedwood", WickedwoodFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, WickedwoodFeature.GENERATE_BIOMES, WickedwoodFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> WICKEDSPROUNS = register("wickedsprouns", WickedsprounsFeature::feature, new FeatureRegistration(

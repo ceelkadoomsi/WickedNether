@@ -2,7 +2,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.wickednether.init;
+package net.mcreator.addonity.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -30,8 +30,8 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
-import net.mcreator.wickednether.WickedNetherMod;
 import net.mcreator.addonity.world.biome.WickedForestBiome;
+import net.mcreator.addonity.AddonityMod;
 
 import java.util.Map;
 import java.util.List;
@@ -40,8 +40,8 @@ import java.util.ArrayList;
 import com.mojang.datafixers.util.Pair;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class WickedNetherModBiomes {
-	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, WickedNetherMod.MODID);
+public class AddonityModBiomes {
+	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, AddonityMod.MODID);
 	public static final RegistryObject<Biome> WICKED_FOREST = REGISTRY.register("wicked_forest", () -> WickedForestBiome.createBiome());
 
 	@SubscribeEvent
@@ -82,7 +82,7 @@ public class WickedNetherModBiomes {
 							List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
 							surfaceRules.add(2,
 									anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, WICKED_FOREST.getId()),
-											WickedNetherModBlocks.WICKED_NYLIUM.get().defaultBlockState(), Blocks.NETHERRACK.defaultBlockState(),
+											AddonityModBlocks.WICKED_NYLIUM.get().defaultBlockState(), Blocks.NETHERRACK.defaultBlockState(),
 											Blocks.NETHERRACK.defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),

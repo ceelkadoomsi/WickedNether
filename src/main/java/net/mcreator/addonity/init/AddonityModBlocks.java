@@ -2,7 +2,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.wickednether.init;
+package net.mcreator.addonity.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -14,8 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.wickednether.block.WiskedQuartzLoreBlock;
-import net.mcreator.wickednether.WickedNetherMod;
+import net.mcreator.addonity.block.WiskedQuartzLoreBlock;
 import net.mcreator.addonity.block.WickedwoodBlock;
 import net.mcreator.addonity.block.WickedsprounsBlock;
 import net.mcreator.addonity.block.WickedPlanksBlock;
@@ -28,11 +27,12 @@ import net.mcreator.addonity.block.TriodiaHaystack0Block;
 import net.mcreator.addonity.block.TriodiaBushBlock;
 import net.mcreator.addonity.block.TriodiaBlock;
 import net.mcreator.addonity.block.HangingvinesBlock;
+import net.mcreator.addonity.AddonityMod;
 
-public class WickedNetherModBlocks {
-	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, WickedNetherMod.MODID);
+public class AddonityModBlocks {
+	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, AddonityMod.MODID);
 	public static final RegistryObject<Block> WICKED_NYLIUM = REGISTRY.register("wicked_nylium", () -> new WickedNyliumBlock());
-	public static final RegistryObject<Block> WICKED_LEAVES = REGISTRY.register("wicked_leaves", () -> new WickedLeavesBlock());
+	public static final RegistryObject<Block> WICKED_WART_BLOCK = REGISTRY.register("wicked_wart_block", () -> new WickedLeavesBlock());
 	public static final RegistryObject<Block> WICKEDWOOD = REGISTRY.register("wickedwood", () -> new WickedwoodBlock());
 	public static final RegistryObject<Block> WICKEDSPROUNS = REGISTRY.register("wickedsprouns", () -> new WickedsprounsBlock());
 	public static final RegistryObject<Block> HANGINGVINES = REGISTRY.register("hangingvines", () -> new HangingvinesBlock());

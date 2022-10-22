@@ -1,0 +1,11 @@
+{
+  "wickedforest": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "addonity:wicked_forest",
+        "stream": false
+      }
+    ]
+  }
+}

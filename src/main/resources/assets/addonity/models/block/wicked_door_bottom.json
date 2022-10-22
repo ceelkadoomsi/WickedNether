@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "addonity:blocks/wicked_door_bottom",
+    "top": "addonity:blocks/wicked_door_top"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "addonity:blocks/netherack",
+    "up": "addonity:blocks/wicked_nylium_top",
+    "north": "addonity:blocks/wicked_nylium_side",
+    "east": "addonity:blocks/wicked_nylium_side",
+    "south": "addonity:blocks/wicked_nylium_side",
+    "west": "addonity:blocks/wicked_nylium_side",
+    "particle": "addonity:blocks/netherack"
+  }
+}

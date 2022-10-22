@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "addonity:wicked_planks"
+    },
+    "1": {
+      "item": "addonity:wicked_planks"
+    },
+    "2": {
+      "item": "addonity:wicked_planks"
+    },
+    "3": {
+      "item": "addonity:wicked_planks"
+    },
+    "4": {
+      "item": "addonity:wicked_planks"
+    },
+    "5": {
+      "item": "addonity:wicked_planks"
+    }
+  },
+  "result": {
+    "item": "addonity:wicked_door",
+    "count": 3
+  }
+}

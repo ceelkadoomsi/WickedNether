@@ -2,7 +2,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.wickednether.init;
+package net.mcreator.addonity.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -16,12 +16,12 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.wickednether.WickedNetherMod;
 import net.mcreator.addonity.entity.WickedEntity;
+import net.mcreator.addonity.AddonityMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class WickedNetherModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, WickedNetherMod.MODID);
+public class AddonityModEntities {
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, AddonityMod.MODID);
 	public static final RegistryObject<EntityType<WickedEntity>> WICKED = register("wicked",
 			EntityType.Builder.<WickedEntity>of(WickedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(WickedEntity::new).fireImmune().sized(0.6f, 1.8f));

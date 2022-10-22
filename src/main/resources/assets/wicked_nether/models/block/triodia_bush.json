@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "wicked_nether:blocks/tall_triodia_top",
-    "particle": "wicked_nether:blocks/tall_triodia_top"
-  }
-}

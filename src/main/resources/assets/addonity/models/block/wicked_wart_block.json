@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "addonity:blocks/wicked_wart_block",
+    "up": "addonity:blocks/wicked_wart_block",
+    "north": "addonity:blocks/wicked_wart_block",
+    "east": "addonity:blocks/wicked_wart_block",
+    "south": "addonity:blocks/wicked_wart_block",
+    "west": "addonity:blocks/wicked_wart_block",
+    "particle": "addonity:blocks/wicked_wart_block"
+  }
+}
