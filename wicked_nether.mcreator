@@ -127,14 +127,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wicked_wood_1"
-    },
-    {
-      "name": "Fya",
-      "type": "item",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fya"
     }
   ],
   "variable_elements": [],
@@ -151,7 +143,6 @@
   "language_map": {
     "en_us": {
       "block.wicked_nether.wickedsprouns": "Wickedsprouns",
-      "item.wicked_nether.fya": "Fya",
       "subtitles.wickedforest": "",
       "block.wicked_nether.wisked_quartz_lore": "Wisked Quartz Lore",
       "block.wicked_nether.hangingvines": "Hangingvines",
