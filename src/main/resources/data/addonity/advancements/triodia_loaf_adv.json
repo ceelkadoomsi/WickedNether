@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "addonity:baked_triodia_loaf"
+    },
+    "title": {
+      "translate": "advancements.triodia_loaf_adv.title"
+    },
+    "description": {
+      "translate": "advancements.triodia_loaf_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "triodia_loaf_adv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "addonity:baked_triodia_loaf"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:husbandry/root"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "addonity:triodia_haystack"
+    },
+    {
+      "item": "addonity:triodia_haystack"
+    },
+    {
+      "item": "addonity:triodia_haystack"
+    },
+    {
+      "item": "addonity:triodia_haystack"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "addonity:triodia_loaf",
+    "count": 2
+  }
+}
