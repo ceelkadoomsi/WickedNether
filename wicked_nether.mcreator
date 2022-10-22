@@ -12,7 +12,7 @@
       "name": "WickedLeaves",
       "type": "block",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "wicked_wart_block"
     },
@@ -60,7 +60,7 @@
       "name": "Hangingvines",
       "type": "plant",
       "sortid": 7,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "hangingvines"
     },
@@ -124,7 +124,7 @@
       "name": "HangingvinesDobavochnoieUsloviiePoGienieratsii",
       "type": "procedure",
       "sortid": 15,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "hangingvines_dobavochnoie_usloviie_po_gienieratsii",
       "metadata": {
