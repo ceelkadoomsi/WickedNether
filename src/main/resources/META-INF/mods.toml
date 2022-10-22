@@ -3,14 +3,14 @@ loaderVersion="[40,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="wicked_nether"
+modId="addonity"
 version="1.0.0"
-displayName="Wicked Nether"
+displayName="Addonity"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="User040920w764, MCreator"
 
-[[dependencies.wicked_nether]]
+[[dependencies.addonity]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2]"
@@ -19,4 +19,10 @@ authors="User040920w764, MCreator"
 
 
 
+[[dependencies.addonity]]
+    modId="allmods"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
