@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wicked_nether:blocks/wickedquartzore",
+    "up": "wicked_nether:blocks/wickedquartzore",
+    "north": "wicked_nether:blocks/wickedquartzore",
+    "east": "wicked_nether:blocks/wickedquartzore",
+    "south": "wicked_nether:blocks/wickedquartzore",
+    "west": "wicked_nether:blocks/wickedquartzore",
+    "particle": "wicked_nether:blocks/wickedquartzore"
+  }
+}

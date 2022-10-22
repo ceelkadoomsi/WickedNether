@@ -1,0 +1,11 @@
+{
+  "wickedforest": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "wicked_nether:wicked_forest",
+        "stream": false
+      }
+    ]
+  }
+}
