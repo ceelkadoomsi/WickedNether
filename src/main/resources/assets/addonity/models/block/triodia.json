@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "addonity:blocks/triodia",
+    "particle": "addonity:blocks/triodia"
+  }
+}

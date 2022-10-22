@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "addonity:blocks/hanging_vines",
+    "particle": "addonity:blocks/hanging_vines"
+  }
+}

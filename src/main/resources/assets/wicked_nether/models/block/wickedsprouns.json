@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "wicked_nether:blocks/wicked_sprouts",
-    "particle": "wicked_nether:blocks/wicked_sprouts"
-  }
-}

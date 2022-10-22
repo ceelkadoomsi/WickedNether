@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "addonity:blocks/warped_planks",
+    "up": "addonity:blocks/warped_planks",
+    "north": "addonity:blocks/warped_planks",
+    "east": "addonity:blocks/warped_planks",
+    "south": "addonity:blocks/warped_planks",
+    "west": "addonity:blocks/warped_planks",
+    "particle": "addonity:blocks/warped_planks"
+  }
+}

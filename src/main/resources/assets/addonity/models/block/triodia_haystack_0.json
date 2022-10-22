@@ -1,0 +1,8 @@
+{
+  "parent": "addonity:custom/triodia_haystack_0",
+  "textures": {
+    "all": "addonity:blocks/triodia_block",
+    "particle": "addonity:blocks/triodia_block",
+    "3": "addonity:blocks/triodia_block"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "addonity:blocks/dast",
+    "up": "addonity:blocks/dast",
+    "north": "addonity:blocks/dast",
+    "east": "addonity:blocks/dast",
+    "south": "addonity:blocks/dast",
+    "west": "addonity:blocks/dast",
+    "particle": "addonity:blocks/dast"
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "wicked_nether:custom/triodia_haystack",
-  "textures": {
-    "all": "wicked_nether:blocks/triodia_block",
-    "particle": "wicked_nether:blocks/triodia_block",
-    "3": "wicked_nether:blocks/triodia_block"
-  }
-}

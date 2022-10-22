@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "addonity:blocks/wicked_sprouts",
+    "particle": "addonity:blocks/wicked_sprouts"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "addonity:blocks/warped_stem_top",
+    "up": "addonity:blocks/warped_stem_top",
+    "north": "addonity:blocks/wicked_stem",
+    "east": "addonity:blocks/wicked_stem",
+    "south": "addonity:blocks/wicked_stem",
+    "west": "addonity:blocks/wicked_stem",
+    "particle": "addonity:blocks/warped_stem_top"
+  }
+}
