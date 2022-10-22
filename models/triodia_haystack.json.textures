@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "triodia_block"
+      },
+      "name": "default"
+    }
+  }
+}

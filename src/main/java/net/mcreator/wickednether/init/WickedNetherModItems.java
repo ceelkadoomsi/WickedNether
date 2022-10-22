@@ -20,7 +20,7 @@ import net.mcreator.wickednether.WickedNetherMod;
 
 public class WickedNetherModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, WickedNetherMod.MODID);
-	public static final RegistryObject<Item> WICKED_NYLIUM = block(WickedNetherModBlocks.WICKED_NYLIUM, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> WICKED_NYLIUM = block(WickedNetherModBlocks.WICKED_NYLIUM, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> WICKED_LEAVES = block(WickedNetherModBlocks.WICKED_LEAVES, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> WICKEDWOOD = block(WickedNetherModBlocks.WICKEDWOOD, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> WICKED = REGISTRY.register("wicked_spawn_egg",
@@ -32,6 +32,11 @@ public class WickedNetherModItems {
 	public static final RegistryObject<Item> WICKED_QUARTZ = REGISTRY.register("wicked_quartz", () -> new WickedQuartzItem());
 	public static final RegistryObject<Item> WISKED_QUARTZ_LORE = block(WickedNetherModBlocks.WISKED_QUARTZ_LORE,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TRIODIA = block(WickedNetherModBlocks.TRIODIA, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> TRIODIA_BUSH = doubleBlock(WickedNetherModBlocks.TRIODIA_BUSH, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> TRIODIA_HAYSTACK = block(WickedNetherModBlocks.TRIODIA_HAYSTACK, CreativeModeTab.TAB_MISC);
+	public static final RegistryObject<Item> TRIODIA_HAYSTACK_0 = block(WickedNetherModBlocks.TRIODIA_HAYSTACK_0, null);
+	public static final RegistryObject<Item> TRIODIA_HAYSTACK_1 = block(WickedNetherModBlocks.TRIODIA_HAYSTACK_1, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -121,12 +121,368 @@
       "registry_name": "wisked_quartz_lore"
     },
     {
-      "name": "WickedWood1",
+      "name": "WickedFungus5",
       "type": "structure",
-      "sortid": 14,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wicked_wood_1"
+      "registry_name": "wicked_fungus_5"
+    },
+    {
+      "name": "TriodiaHaystack",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_haystack",
+      "path": "~/DesertEnhancement/Blocks"
+    },
+    {
+      "name": "TriodiaHaystack0",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_haystack_0",
+      "path": "~/DesertEnhancement/Blocks"
+    },
+    {
+      "name": "TriodiaHaystackNaBlokieNazhataPravaiaKnopkaMyshi",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_haystack_na_blokie_nazhata_pravaia_knopka_myshi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DesertEnhancement/Blocks"
+    },
+    {
+      "name": "TriodiaBushCutFunction",
+      "type": "function",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_bush_cut_function",
+      "path": "~/DesertEnhancement/Functions"
+    },
+    {
+      "name": "WickedFungus6",
+      "type": "structure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus_6"
+    },
+    {
+      "name": "TriodiaHaystack1",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_haystack_1",
+      "path": "~/DesertEnhancement/Blocks"
+    },
+    {
+      "name": "WickedFungus3",
+      "type": "structure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus_3"
+    },
+    {
+      "name": "TriodiaBushCut",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_bush_cut",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DesertEnhancement/Blocks"
+    },
+    {
+      "name": "WickedFungus4",
+      "type": "structure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus_4"
+    },
+    {
+      "name": "TriodiaCutFunction",
+      "type": "function",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_cut_function",
+      "path": "~/DesertEnhancement/Functions"
+    },
+    {
+      "name": "WickedFungus2",
+      "type": "structure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus_2"
+    },
+    {
+      "name": "TriodiaBush",
+      "type": "plant",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_bush",
+      "path": "~/DesertEnhancement/Blocks"
+    },
+    {
+      "name": "WickedFungusDopolnitielnoieUsloviieGienieratsii",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus_dopolnitielnoie_usloviie_gienieratsii",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TriodiaBushPriNazhatiiPravoiKnopkiMyshiNaRastienii",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_bush_pri_nazhatii_pravoi_knopki_myshi_na_rastienii",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DesertEnhancement/Blocks"
+    },
+    {
+      "name": "HangingvinesDobavochnoieUsloviiePoGienieratsii",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hangingvines_dobavochnoie_usloviie_po_gienieratsii",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TriodiaCut",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_cut",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DesertEnhancement/Blocks"
+    },
+    {
+      "name": "TriodiaBushCutLoot",
+      "type": "loottable",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_bush_cut_loot",
+      "path": "~/DesertEnhancement/LootTables"
+    },
+    {
+      "name": "WickedFungus",
+      "type": "structure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicked_fungus"
+    },
+    {
+      "name": "TriodiaKoghdaRastieniieRazrushienoIghrokom",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_koghda_rastieniie_razrushieno_ighrokom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/DesertEnhancement/Blocks"
+    },
+    {
+      "name": "Triodia",
+      "type": "plant",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia",
+      "path": "~/DesertEnhancement/Blocks"
+    },
+    {
+      "name": "TriodiaHaystackNaBlokieNazhataPravaiaKnopkaMyshi0",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_haystack_na_blokie_nazhata_pravaia_knopka_myshi_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DesertEnhancement/Blocks"
+    },
+    {
+      "name": "TriodiaCutLoot",
+      "type": "loottable",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_cut_loot",
+      "path": "~/DesertEnhancement/LootTables"
     }
   ],
   "variable_elements": [],
@@ -144,22 +500,54 @@
     "en_us": {
       "block.wicked_nether.wickedsprouns": "Wickedsprouns",
       "subtitles.wickedforest": "",
-      "block.wicked_nether.wisked_quartz_lore": "Wisked Quartz Lore",
       "block.wicked_nether.hangingvines": "Hangingvines",
       "block.wicked_nether.wickedwood": "Wickedwood",
       "biome.wicked_nether.wicked_forest": "Wicked Forest",
       "block.wicked_nether.wicked_door": "Wicked Door",
-      "block.wicked_nether.wicked_leaves": "Wicked Leaves",
+      "block.wicked_nether.triodia_haystack_0": "Triodia Haystack",
+      "block.wicked_nether.triodia_haystack": "Triodia Haystack",
+      "block.wicked_nether.wicked_quartz_lore": "Wisked Quartz Lore",
       "item.wicked_nether.wicked_quartz": "Wicked Quartz",
       "block.wicked_nether.wicked_nylium": "Wicked Nylium",
       "entity.wicked_nether.wicked": "Wicked",
       "item.wicked_nether.wicked_spawn_egg": "Wicked Spawn Egg",
-      "block.wicked_nether.wicked_planks": "Wicked Planks"
+      "block.wicked_nether.wicked_planks": "Wicked Planks",
+      "block.wicked_nether.wicked_wart_block": "Wicked Wart Block"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "DesertEnhancement",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Entities",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "LootTables",
+            "children": []
+          },
+          {
+            "name": "Functions",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "wicked_nether",

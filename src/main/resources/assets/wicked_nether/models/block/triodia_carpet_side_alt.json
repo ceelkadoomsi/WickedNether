@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "wicked_nether:blocks/tall_triodia",
+    "pane": "wicked_nether:blocks/tall_triodia"
+  }
+}

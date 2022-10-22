@@ -18,13 +18,20 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
 import net.mcreator.wickednether.world.features.plants.WickedsprounsFeature;
+import net.mcreator.wickednether.world.features.plants.TriodiaFeature;
+import net.mcreator.wickednether.world.features.plants.TriodiaBushFeature;
 import net.mcreator.wickednether.world.features.plants.HangingvinesFeature;
 import net.mcreator.wickednether.world.features.ores.WiskedQuartzLoreFeature;
 import net.mcreator.wickednether.world.features.ores.WickedwoodFeature;
 import net.mcreator.wickednether.world.features.ores.WickedPlanksFeature;
 import net.mcreator.wickednether.world.features.ores.WickedNyliumFeature;
 import net.mcreator.wickednether.world.features.ores.WickedLeavesFeature;
-import net.mcreator.wickednether.world.features.WickedWood1Feature;
+import net.mcreator.wickednether.world.features.WickedFungusFeature;
+import net.mcreator.wickednether.world.features.WickedFungus6Feature;
+import net.mcreator.wickednether.world.features.WickedFungus5Feature;
+import net.mcreator.wickednether.world.features.WickedFungus4Feature;
+import net.mcreator.wickednether.world.features.WickedFungus3Feature;
+import net.mcreator.wickednether.world.features.WickedFungus2Feature;
 import net.mcreator.wickednether.WickedNetherMod;
 
 import java.util.function.Supplier;
@@ -51,8 +58,27 @@ public class WickedNetherModFeatures {
 	public static final RegistryObject<Feature<?>> WISKED_QUARTZ_LORE = register("wisked_quartz_lore", WiskedQuartzLoreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, WiskedQuartzLoreFeature.GENERATE_BIOMES,
 					WiskedQuartzLoreFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> WICKED_WOOD_1 = register("wicked_wood_1", WickedWood1Feature::feature, new FeatureRegistration(
-			GenerationStep.Decoration.SURFACE_STRUCTURES, WickedWood1Feature.GENERATE_BIOMES, WickedWood1Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> WICKED_FUNGUS = register("wicked_fungus", WickedFungusFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_STRUCTURES, WickedFungusFeature.GENERATE_BIOMES, WickedFungusFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> WICKED_FUNGUS_2 = register("wicked_fungus_2", WickedFungus2Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, WickedFungus2Feature.GENERATE_BIOMES,
+					WickedFungus2Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> WICKED_FUNGUS_3 = register("wicked_fungus_3", WickedFungus3Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, WickedFungus3Feature.GENERATE_BIOMES,
+					WickedFungus3Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> WICKED_FUNGUS_4 = register("wicked_fungus_4", WickedFungus4Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, WickedFungus4Feature.GENERATE_BIOMES,
+					WickedFungus4Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> WICKED_FUNGUS_5 = register("wicked_fungus_5", WickedFungus5Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, WickedFungus5Feature.GENERATE_BIOMES,
+					WickedFungus5Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> WICKED_FUNGUS_6 = register("wicked_fungus_6", WickedFungus6Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, WickedFungus6Feature.GENERATE_BIOMES,
+					WickedFungus6Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> TRIODIA = register("triodia", TriodiaFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, TriodiaFeature.GENERATE_BIOMES, TriodiaFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TRIODIA_BUSH = register("triodia_bush", TriodiaBushFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, TriodiaBushFeature.GENERATE_BIOMES, TriodiaBushFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

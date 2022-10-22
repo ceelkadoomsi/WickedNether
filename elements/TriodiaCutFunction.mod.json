@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "function",
+  "definition": {
+    "code": "loot spawn ~ ~ ~ loot wicked_nether:triodia_cut_loot",
+    "name": "triodia_cut",
+    "namespace": "mod"
+  }
+}

@@ -1,15 +1,17 @@
 {
   "block.wicked_nether.wickedsprouns": "Wickedsprouns",
   "subtitles.wickedforest": "",
-  "block.wicked_nether.wisked_quartz_lore": "Wisked Quartz Lore",
   "block.wicked_nether.hangingvines": "Hangingvines",
   "block.wicked_nether.wickedwood": "Wickedwood",
   "biome.wicked_nether.wicked_forest": "Wicked Forest",
   "block.wicked_nether.wicked_door": "Wicked Door",
-  "block.wicked_nether.wicked_leaves": "Wicked Leaves",
+  "block.wicked_nether.triodia_haystack_0": "Triodia Haystack",
+  "block.wicked_nether.triodia_haystack": "Triodia Haystack",
+  "block.wicked_nether.wicked_quartz_lore": "Wisked Quartz Lore",
   "item.wicked_nether.wicked_quartz": "Wicked Quartz",
   "block.wicked_nether.wicked_nylium": "Wicked Nylium",
   "entity.wicked_nether.wicked": "Wicked",
   "item.wicked_nether.wicked_spawn_egg": "Wicked Spawn Egg",
-  "block.wicked_nether.wicked_planks": "Wicked Planks"
+  "block.wicked_nether.wicked_planks": "Wicked Planks",
+  "block.wicked_nether.wicked_wart_block": "Wicked Wart Block"
 }

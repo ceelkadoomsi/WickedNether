@@ -16,7 +16,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "tintType": "Grass",
+    "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
     "connectedSides": false,
@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -133,16 +133,13 @@
     ],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": "CUSTOM:WickedNylium"
+        "value": "Blocks.NETHERRACK"
       }
     ],
     "generationShape": "TRIANGLE",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": 30,
+    "minGenerateHeight": 20,
     "maxGenerateHeight": 85
   }
 }

@@ -82,8 +82,8 @@ public class WickedNetherModBiomes {
 							List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
 							surfaceRules.add(2,
 									anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, WICKED_FOREST.getId()),
-											WickedNetherModBlocks.WICKED_NYLIUM.get().defaultBlockState(),
-											Blocks.NETHER_WART_BLOCK.defaultBlockState(), Blocks.NETHER_WART_BLOCK.defaultBlockState()));
+											WickedNetherModBlocks.WICKED_NYLIUM.get().defaultBlockState(), Blocks.NETHERRACK.defaultBlockState(),
+											Blocks.NETHERRACK.defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),

@@ -1,7 +1,6 @@
 
 package net.mcreator.wickednether.world.features.plants;
 
-import net.minecraft.world.level.levelgen.placement.RarityFilter;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
 import net.minecraft.world.level.levelgen.placement.CountPlacement;
@@ -36,9 +35,9 @@ public class WickedsprounsFeature extends RandomPatchFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("wicked_nether:wickedsprouns", FEATURE,
 				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
 						new SimpleBlockConfiguration(BlockStateProvider.simple(WickedNetherModBlocks.WICKEDSPROUNS.get().defaultBlockState())),
-						List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("wicked_nether:wickedsprouns", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
-				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+						List.of(), 12));
+		PLACED_FEATURE = PlacementUtils.register("wicked_nether:wickedsprouns", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(5), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE, BiomeFilter.biome()));
 		return FEATURE;
 	}
 

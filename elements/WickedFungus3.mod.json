@@ -1,0 +1,36 @@
+{
+  "_fv": 33,
+  "_type": "structure",
+  "definition": {
+    "structure": "wicked_fungus_1",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 600000,
+    "minCountPerChunk": 12,
+    "maxCountPerChunk": 16,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Nether"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:WickedNylium"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:WickedForest"
+      }
+    ],
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "WickedFungusDopolnitielnoieUsloviieGienieratsii"
+    }
+  }
+}

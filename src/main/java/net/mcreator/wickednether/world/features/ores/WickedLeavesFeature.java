@@ -43,9 +43,9 @@ public class WickedLeavesFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new WickedLeavesFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("wicked_nether:wicked_leaves", FEATURE,
-				new OreConfiguration(WickedLeavesFeatureRuleTest.INSTANCE, WickedNetherModBlocks.WICKED_LEAVES.get().defaultBlockState(), 16));
-		PLACED_FEATURE = PlacementUtils.register("wicked_nether:wicked_leaves", CONFIGURED_FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("wicked_nether:wicked_wart_block", FEATURE,
+				new OreConfiguration(WickedLeavesFeatureRuleTest.INSTANCE, WickedNetherModBlocks.WICKED_WART_BLOCK.get().defaultBlockState(), 16));
+		PLACED_FEATURE = PlacementUtils.register("wicked_nether:wicked_wart_block", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;
@@ -77,14 +77,14 @@ public class WickedLeavesFeature extends OreFeature {
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("wicked_nether:wicked_leaves_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("wicked_nether:wicked_wart_block_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;
 
 		public boolean test(BlockState blockAt, Random random) {
 			if (base_blocks == null) {
-				base_blocks = List.of(Blocks.STONE, WickedNetherModBlocks.WICKED_LEAVES.get());
+				base_blocks = List.of(Blocks.STONE, WickedNetherModBlocks.WICKED_WART_BLOCK.get());
 			}
 			return base_blocks.contains(blockAt.getBlock());
 		}
