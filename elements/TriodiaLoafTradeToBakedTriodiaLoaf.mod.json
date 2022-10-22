@@ -1,0 +1,33 @@
+{
+  "_fv": 33,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "SHEPHERD"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:TriodiaLoaf"
+            },
+            "countPrice1": 9,
+            "price2": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BakedTriodiaLoaf"
+            },
+            "countOffer": 9,
+            "level": 3,
+            "maxTrades": 7,
+            "xp": 5,
+            "priceMultiplier": 0.08
+          }
+        ]
+      }
+    ]
+  }
+}

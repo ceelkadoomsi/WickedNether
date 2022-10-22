@@ -483,6 +483,132 @@
       "locked_code": false,
       "registry_name": "triodia_cut_function",
       "path": "~/DesertEnhancement/Functions"
+    },
+    {
+      "name": "TriodiaLoaf",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_loaf",
+      "path": "~/DesertEnhancement/Items"
+    },
+    {
+      "name": "BakedTriodiaLoaf",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_triodia_loaf",
+      "path": "~/DesertEnhancement/Items"
+    },
+    {
+      "name": "TriodiaLoafRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_loaf_recipe",
+      "path": "~/DesertEnhancement/Recipes"
+    },
+    {
+      "name": "BakedTriodiaLoafRecipeFurnace",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_triodia_loaf_recipe_furnace",
+      "path": "~/DesertEnhancement/Recipes"
+    },
+    {
+      "name": "BakedTriodiaLoafSmoke",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_triodia_loaf_smoke",
+      "path": "~/DesertEnhancement/Recipes"
+    },
+    {
+      "name": "BakedTriodiaLoafCampfire",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_triodia_loaf_campfire",
+      "path": "~/DesertEnhancement/Recipes"
+    },
+    {
+      "name": "TriodiaLoafTradeToEmerald",
+      "type": "villagertrade",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_loaf_trade_to_emerald",
+      "path": "~/DesertEnhancement/Trades"
+    },
+    {
+      "name": "TriodiaLoafTradeToEmerald0",
+      "type": "villagertrade",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_loaf_trade_to_emerald_0",
+      "path": "~/DesertEnhancement/Trades"
+    },
+    {
+      "name": "TriodiaLoafTradeToEmerald1",
+      "type": "villagertrade",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_loaf_trade_to_emerald_1",
+      "path": "~/DesertEnhancement/Trades"
+    },
+    {
+      "name": "TriodiaLoafTradeToBakedTriodiaLoaf",
+      "type": "villagertrade",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_loaf_trade_to_baked_triodia_loaf",
+      "path": "~/DesertEnhancement/Trades"
+    },
+    {
+      "name": "TriodiaBushExp",
+      "type": "itemextension",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_haystack_exp",
+      "path": "~/DesertEnhancement/Items"
+    },
+    {
+      "name": "TriodiaSmallBushExp",
+      "type": "itemextension",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_small_bush_exp",
+      "path": "~/DesertEnhancement/Items"
+    },
+    {
+      "name": "TriodiaTallBushExp",
+      "type": "itemextension",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_tall_bush_exp",
+      "path": "~/DesertEnhancement/Items"
+    },
+    {
+      "name": "TriodiaLoafAdv",
+      "type": "achievement",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triodia_loaf_adv",
+      "path": "~/DesertEnhancement/Advancements"
     }
   ],
   "variable_elements": [],
@@ -498,12 +624,14 @@
   ],
   "language_map": {
     "en_us": {
+      "item.addonity.baked_triodia_loaf": "Baked Triodia Loaf",
       "biome.wicked_nether.wicked_forest": "Wicked Forest",
       "block.wicked_nether.triodia_haystack_0": "Triodia Haystack",
       "entity.addonity.wicked": "Wicked",
       "block.wicked_nether.triodia_bush": "Triodia Bush",
       "block.wicked_nether.triodia_haystack_1": "Triodia Haystack",
       "block.addonity.triodia_haystack_0": "Triodia Haystack",
+      "item.addonity.triodia_loaf": "Triodia Loaf",
       "block.addonity.wicked_nylium": "Wicked Nylium",
       "biome.addonity.wicked_forest": "Wicked Forest",
       "item.wicked_nether.wicked_quartz": "Wicked Quartz",
@@ -514,6 +642,7 @@
       "entity.wicked_nether.wicked": "Wicked",
       "item.wicked_nether.wicked_spawn_egg": "Wicked Spawn Egg",
       "block.wicked_nether.wicked_wart_block": "Wicked Wart Block",
+      "advancements.triodia_loaf_adv.title": "You Can Even Make Candy Out Of Trash",
       "block.addonity.wicked_quartz_lore": "Wisked Quartz Lore",
       "block.addonity.wicked_wart_block": "Wicked Wart Block",
       "block.wicked_nether.wickedsprouns": "Wicked Sprouts",
@@ -528,6 +657,7 @@
       "block.addonity.wickedwood": "Wickedwood",
       "block.addonity.triodia_haystack_1": "Triodia Haystack",
       "block.addonity.wickedsprouns": "Wicked Sprouts",
+      "advancements.triodia_loaf_adv.descr": "Cook Triodia Loaf.",
       "block.wicked_nether.triodia_haystack": "Triodia Haystack",
       "block.wicked_nether.wicked_quartz_lore": "Wisked Quartz Lore",
       "block.addonity.wicked_planks": "Wicked Planks",
@@ -563,6 +693,14 @@
           },
           {
             "name": "Functions",
+            "children": []
+          },
+          {
+            "name": "Trades",
+            "children": []
+          },
+          {
+            "name": "Advancements",
             "children": []
           }
         ]

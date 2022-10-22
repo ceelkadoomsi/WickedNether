@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:TriodiaLoaf"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:BakedTriodiaLoaf"
+    },
+    "name": "baked_triodia_loaf_smoke",
+    "namespace": "mod"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "wicked_nether:wicked_nylium",
-    "wicked_nether:wicked_quartz_lore"
+    "addonity:wicked_nylium",
+    "addonity:wicked_quartz_lore"
   ]
 }

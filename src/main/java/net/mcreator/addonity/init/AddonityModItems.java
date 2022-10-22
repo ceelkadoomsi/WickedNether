@@ -16,6 +16,8 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.addonity.item.WickedQuartzItem;
+import net.mcreator.addonity.item.TriodiaLoafItem;
+import net.mcreator.addonity.item.BakedTriodiaLoafItem;
 import net.mcreator.addonity.AddonityMod;
 
 public class AddonityModItems {
@@ -36,6 +38,8 @@ public class AddonityModItems {
 	public static final RegistryObject<Item> TRIODIA_HAYSTACK = block(AddonityModBlocks.TRIODIA_HAYSTACK, CreativeModeTab.TAB_MISC);
 	public static final RegistryObject<Item> TRIODIA_HAYSTACK_0 = block(AddonityModBlocks.TRIODIA_HAYSTACK_0, null);
 	public static final RegistryObject<Item> TRIODIA_HAYSTACK_1 = block(AddonityModBlocks.TRIODIA_HAYSTACK_1, null);
+	public static final RegistryObject<Item> TRIODIA_LOAF = REGISTRY.register("triodia_loaf", () -> new TriodiaLoafItem());
+	public static final RegistryObject<Item> BAKED_TRIODIA_LOAF = REGISTRY.register("baked_triodia_loaf", () -> new BakedTriodiaLoafItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

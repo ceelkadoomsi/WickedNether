@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundSource;
@@ -29,6 +30,11 @@ public class TriodiaHaystackNaBlokieNazhataPravaiaKnopkaMyshi0Procedure {
 							(float) 0.8, (float) 1.3, false);
 				}
 			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(AddonityModBlocks.TRIODIA_HAYSTACK.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
+						_player.inventoryMenu.getCraftSlots());
+			}
 		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
 				.getItem() == AddonityModBlocks.TRIODIA_HAYSTACK.get().asItem()) {
 			world.setBlock(new BlockPos(x, y, z), AddonityModBlocks.TRIODIA_HAYSTACK_1.get().defaultBlockState(), 3);
@@ -40,6 +46,11 @@ public class TriodiaHaystackNaBlokieNazhataPravaiaKnopkaMyshi0Procedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.crop.plant")), SoundSource.BLOCKS,
 							(float) 0.8, (float) 1.3, false);
 				}
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(AddonityModBlocks.TRIODIA_HAYSTACK.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
+						_player.inventoryMenu.getCraftSlots());
 			}
 		}
 	}
